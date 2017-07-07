@@ -1,7 +1,7 @@
 # REPO NAME 
 
 ## Description: 
-A description of your project follows. A good description is clear, short, and to the point. Describe the importance of your project, and what it does.
+The CIW application retrieves all unprocessed files based on the list of unprocessed files in the Upload table in the HSPD database. It will then convert these files to csv, import the data, perform validation, and do database checks. If all fields pass it will insert the data into the HSPD database, start the sponsorsip/adjudication process. It will then send out appropriate emails to indicate pass/fail status of the upload procedure and directions on next steps.
 
 ## Table of contents
 Table of Contents: Optionally, include a table of contents in order to allow other people to quickly navigate especially long or detailed READMEs.
